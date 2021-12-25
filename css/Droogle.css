@@ -11,7 +11,27 @@
     text-align: center;
     border-color: antiquewhite;
     border: 1px rgba(84, 140, 161, 0.26) solid ;
+
+    transition-duration: 2s;
+    
 }
+
+#inputText:hover{
+    
+    transition-duration: 2s;
+    width: 450px;
+    height: 40px;
+    background-color: rgba(216, 204, 204, 0.918);
+    
+}
+
+#inputTextbtn:hover{
+    transition-duration: 2s;
+    background-color: rgba(216, 204, 204, 0.918);
+    
+}
+
+
 
 #inputTextbtn{
     margin-left: auto;
@@ -26,7 +46,14 @@
     cursor: pointer;
     color: #3c4043;
     font-size: 14px;
+    transition-duration: 2s;
     
+}
+
+#inputTextbtn:hover{
+    transition-duration: 2s;
+    color: black;
+    background-color: rgb(225, 236, 233);
 }
 
 #btnDiv{
@@ -34,7 +61,26 @@
 }
 
 #droogleLogo{
-    
+    padding-bottom: 10px;
     padding-top: 200px;
+    
     text-align: center;
+    transition-duration: 2s;
+}
+#droogleLogo:hover{
+    text-align: center;
+    width: auto;
+  
+    transition-duration: 2s;
+}
+
+#footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: rgb(226, 225, 225);
+
 }
