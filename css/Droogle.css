@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+
+
 #searchForm{
  
     text-align: center;
@@ -35,7 +44,7 @@
     text-align: center;
     color:red;
     padding-top: 220px;
-    font-size: 400%;
+    font-size: 300%;
 }
 
 
@@ -51,7 +60,7 @@
     user-select: none;
     cursor: pointer;
     color: #3c4043;
-    font-size: 14px;
+    font-size: 30px;
     transition-duration: 2s;
     
 }
@@ -78,6 +87,16 @@
     width: auto;
   
     transition-duration: 2s;
+}
+
+#header{
+background: rgb(226, 225, 225);
+ width: 100%;
+ height: 40px;
+ padding: 10px 10px 0px 10px;
+ position: fixed;
+ 
+
 }
 
 #footer{
