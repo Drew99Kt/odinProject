@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+
+
 #searchForm{
  
     text-align: center;
@@ -8,16 +16,19 @@
     border-radius: 100px;
     width: 400px;
     height: 30px;
+    font-size: 10px;
     text-align: center;
     border-color: antiquewhite;
     border: 1px rgba(84, 140, 161, 0.26) solid ;
-
     transition-duration: 2s;
-    
 }
 
+
+
 #inputText:hover{
-    
+    font-size: 40px;
+    width: auto;
+    height: auto;
     transition-duration: 2s;
     width: 450px;
     height: 40px;
@@ -32,10 +43,14 @@
 }
 
 #nat{
+    
     text-align: center;
     color:red;
     padding-top: 220px;
-    font-size: 400%;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
@@ -46,13 +61,15 @@
     background-color: #f8f9fa;
     border-radius: 4px;
     width: auto;
-    height: 30px;
+    height: auto;
     border: 1px solid #f8f9fa;
     user-select: none;
     cursor: pointer;
     color: #3c4043;
-    font-size: 14px;
+    font-size: 25px;
     transition-duration: 2s;
+    padding: auto;
+    border-color: white;
     
 }
 
@@ -80,13 +97,56 @@
     transition-duration: 2s;
 }
 
+#header{
+ background: rgb(226, 225, 225);
+ width: 100%;
+ height: 40px;
+ padding: 10px 10px 0px 10px;
+ position: fixed;
+ 
+
+}
+
 #footer{
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    margin-top: 300px;
     width: 100%;
     /* Height of the footer*/ 
-    height: 40px;
+    height: 150px;
     background: rgb(226, 225, 225);
+}
 
+#footC{
+   display: flex;
+   margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+
+}
+
+li{
+    display: flex;
+    font-size: 40%;
+    margin: 10px;
+    position: inherit;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section {
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
 }
