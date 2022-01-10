@@ -21,6 +21,7 @@
     border-color: antiquewhite;
     border: 1px rgba(84, 140, 161, 0.26) solid ;
     transition-duration: 2s;
+    box-shadow:3px 2px 20px #2f5775;
 }
 
 
@@ -43,14 +44,15 @@
 }
 
 #nat{
-    
+    text-shadow:3px 2px 20px #2f5775;
     text-align: center;
-    color:red;
+    color:rgb(245, 235, 235);
     padding-top: 220px;
     font-size: 200%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 
 
@@ -58,24 +60,26 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #f8f9fa;
-    border-radius: 4px;
+    background-color: #cdd6dd;
+    
     width: auto;
     height: auto;
-    border: 1px solid #f8f9fa;
+    border-color: aliceblue;
     user-select: none;
     cursor: pointer;
-    color: #3c4043;
+    color: white;
     font-size: 25px;
-    transition-duration: 2s;
-    padding: auto;
-    border-color: white;
+    transition-duration: 5s;
+  
+    
+    box-shadow:3px 2px 100px #34556e;
+    text-shadow:3px 2px 20px #1b4e6e;
     
 }
 
 #inputTextbtn:hover{
-    transition-duration: 2s;
-    color: black;
+    transition-duration: 5s;
+    color: rgb(40, 124, 192);
     background-color: rgb(225, 236, 233);
 }
 
