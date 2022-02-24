@@ -1,5 +1,9 @@
 .flex-container {
      display: flex; 
+    width: 200px;
+     height: auto;
+     margin: auto;
+     
   }
   
   /* this selector selects all divs inside of .flex-container */
@@ -9,42 +13,87 @@
     align-items: center;
     background: peachpuff;
     border: 10px solid brown;
-    height: 20px;
-    
+    height: 80px;
+   
      flex: 1; 
+     
   }
 
-  .go-back-to-home-page{
-    
-    margin-top: 100px;
-    padding: 10px;
-    display: flex;
-    flex: 1;
-  }
+
 
   .flex-container .three {
     flex: 1 -1 0%;
-    height: 431px;
+    height: 530px;
     
+  
+    flex-basis: 10px;
+    background-color: rgb(206, 187, 22);
+    border-color: rgb(253, 253, 253);
   }
 
       
       /* flex: grow shrink basis
      */
 
+     .flex-container .one{
+        height: 100px;
+        
+      }
 
-
+      .flex-container .five{
+        height: 20px;
+        
+      }
   
   .flex-container .three2{
-    flex-basis: 10px;
-    flex-grow: -10px;
-    flex-shrink: -10px;
-    height: 200px;
+    margin: 20px;
+    flex-basis: 1px;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    height: px;
+    background-color: rgb(63, 62, 62);
   }
   .flex-container .three .three3{
-    flex-basis: 10px;
-    flex-grow: -10px;
-    flex-shrink: -10px;
-    height: 200px;
+    background-color: white;
+    margin: 10px;
+    flex-basis: 1px;
+    flex-grow: 1;
+    flex-shrink: 100px;
+    height: 100px;
+border-color: white;
+  }
 
+
+
+  .flex-container .three .threetop{
+    background-color: white;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-basis: 1px;
+    flex-grow: 1;
+    flex-shrink: 100px;
+    height: 130px;
+    border-color: white;
+    margin-bottom: 20px;
+  }
+
+
+  .flex-container .three .threebottom{
+    background-color: white;
+    margin: 13px;
+    flex-basis: 1px;
+    flex-grow: 1;
+    flex-shrink: 100px;
+    height: 130px;
+    border-color: white;
+
+  }
+
+
+  .ax{
+      margin: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
