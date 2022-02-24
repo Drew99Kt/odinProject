@@ -1,11 +1,36 @@
 .flex-container {
      display: flex; 
-    width: 200px;
-     height: auto;
+    width: 600px;
+     height: 1000;
      margin: auto;
-     
+     filter: blur(1px);
+     background-color: rgba(117, 133, 108, 0.384);
+     width: 300px;
   }
+
+  .flex-container:hover {
+   
+ }
   
+
+  .flex-container div:hover {
+    transition-duration: 2s;
+    filter: blur(1px);  
+    
+    
+   
+   
+}
+
+.flex-container div {
+   
+    transition-duration: 3s;
+ 
+   
+
+}
+
+
   /* this selector selects all divs inside of .flex-container */
   .flex-container div {
     justify-content: center;
@@ -20,7 +45,23 @@
   }
 
 
+  .flex-container .three .three3:hover {
+  border-color: rgb(88, 12, 12);
+  background-color: rgb(61, 19, 19);
+    
+  }
 
+  .flex-container .three .threetop:hover {
+    border-color: rgb(88, 12, 12);
+    background-color: rgb(61, 19, 19);
+      
+    }
+
+    .flex-container .three .threebottom:hover {
+        border-color: rgb(88, 12, 12);
+        background-color: rgb(61, 19, 19);
+          
+        }
   .flex-container .three {
     flex: 1 -1 0%;
     height: 530px;
@@ -70,10 +111,11 @@ border-color: white;
     
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     flex-basis: 1px;
     flex-grow: 1;
     flex-shrink: 100px;
-    height: 130px;
+    height: 120px;
     border-color: white;
     margin-bottom: 20px;
   }
