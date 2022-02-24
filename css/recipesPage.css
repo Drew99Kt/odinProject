@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+
+}
+
+.bodyDiv{
+    background-color: rgb(175, 230, 196);
+}
+
+.recipeLinks{
+    display: block;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    font-size: 150%;
+}
+.bodyDiv .goBackBtn{
+  background-color: rgb(40, 134, 53);
+  color: rgb(255, 255, 255);
+}

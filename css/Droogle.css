@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+
+
+#searchForm{
+ 
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#inputText{
+    border-radius: 100px;
+    width: 400px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    border-color: antiquewhite;
+    border: 1px rgba(84, 140, 161, 0.26) solid ;
+    transition-duration: 2s;
+    box-shadow:3px 2px 20px #2f5775;
+}
+
+
+
+#inputText:hover{
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    transition-duration: 2s;
+    width: 450px;
+    height: 40px;
+    background-color: rgba(216, 204, 204, 0.918);
+    
+}
+
+#inputTextbtn:hover{
+    transition-duration: 2s;
+    background-color: rgba(216, 204, 204, 0.918);
+    
+}
+
+#nat{
+    text-shadow:3px 2px 20px #2f5775;
+    text-align: center;
+    color:rgb(245, 235, 235);
+    padding-top: 220px;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+
+#inputTextbtn{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #cdd6dd;
+    
+    width: auto;
+    height: auto;
+    border-color: aliceblue;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    transition-duration: 5s;
+  
+    
+    box-shadow:3px 2px 100px #34556e;
+    text-shadow:3px 2px 20px #1b4e6e;
+    
+}
+
+#inputTextbtn:hover{
+    transition-duration: 5s;
+    color: rgb(40, 124, 192);
+    background-color: rgb(225, 236, 233);
+}
+
+#btnDiv{
+    text-align: center;
+}
+
+#droogleLogo{
+    padding-bottom: 10px;
+    padding-top: 200px;
+    
+    text-align: center;
+    transition-duration: 2s;
+}
+#droogleLogo:hover{
+    text-align: center;
+    width: auto;
+  
+    transition-duration: 2s;
+}
+
+#header{
+ background: rgb(226, 225, 225);
+ width: 100%;
+ height: 40px;
+ padding: 10px 10px 0px 10px;
+ position: fixed;
+ 
+
+}
+
+#footer{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    margin-top: 300px;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 150px;
+    background: rgb(226, 225, 225);
+}
+
+#footC{
+   display: flex;
+   margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+
+}
+
+li{
+    display: flex;
+    font-size: 40%;
+    margin: 10px;
+    position: inherit;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section {
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
