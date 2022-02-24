@@ -1,0 +1,50 @@
+.flex-container {
+     display: flex; 
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: peachpuff;
+    border: 10px solid brown;
+    height: 20px;
+    
+     flex: 1; 
+  }
+
+  .go-back-to-home-page{
+    
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+  }
+
+  .flex-container .three {
+    flex: 1 -1 0%;
+    height: 431px;
+    
+  }
+
+      
+      /* flex: grow shrink basis
+     */
+
+
+
+  
+  .flex-container .three2{
+    flex-basis: 10px;
+    flex-grow: -10px;
+    flex-shrink: -10px;
+    height: 200px;
+  }
+  .flex-container .three .three3{
+    flex-basis: 10px;
+    flex-grow: -10px;
+    flex-shrink: -10px;
+    height: 200px;
+
+  }
