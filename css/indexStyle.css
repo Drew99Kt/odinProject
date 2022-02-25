@@ -1,40 +1,77 @@
 
 
 body{
-    align-content: center;
+    
 }
 
 #odinImg{
    height: auto;
    width: 30%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+   display: flex;
+ margin: auto;
+ transition-duration: 2s;
+}
+#odinImg:hover{
+    transition-duration: 30s;
+    
 }
 
 #bodyDiv #selectProject, #links{
    
-    color: white;
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
     background-repeat: no-repeat;
     background-size: 100px 20px;
     text-align: center;
     
 }
 
-.linksBtn{
+/* .linksBtn{
     background-color: rgba(36, 147, 250, 0.555);
     padding: 15px 32px;
     border-radius:100px ;
     border: 2px solid blue;
   
-}
+} */
 .linksBtn a{
     color: rgb(0, 0, 0);
+   transition-duration: 6s;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#links{
-    background-color: rgb(2, 2, 2);
+
+
+.linksBtn a:hover{
+  
+    transition-duration: 6s;
+    color: rgb(233, 231, 231);
+ 
+    
 }
 
+#links{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(202, 201, 201);
+}
+
+.container{
+ 
+   margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.container > .linksBtn{
+    background-color: rgba(102, 151, 197, 0.555);
+    
+    border-radius:10px ;
+  
+
+    
+   
+
+padding: 10px;
+height: 50px;
+
+}
