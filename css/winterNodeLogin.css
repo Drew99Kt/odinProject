@@ -132,7 +132,7 @@ font: bold;
         align-self: center;
     }
 
-    .loginDiv .loginForm .loginBTN{
+    #loginBTN{
         background-color: #1897e0;
         color: white;
         width: 60px;
@@ -159,4 +159,12 @@ font: bold;
        
         color: white;
         align-content: center;
+    }
+    #passwordInput{
+        width: 50%;
+        align-self: center;
+    }
+    #inputEmail{
+        width: 50%;
+        align-self: center;
     }
