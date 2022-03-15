@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.leftheader{
+    display: flex;
+    flex: 1;
+    background-color: coral;
+
+}

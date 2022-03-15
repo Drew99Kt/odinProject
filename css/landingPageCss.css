@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+   
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+
+.leftheaders{
+    flex: 1 0 0;
+    max-width: 130%;
+    margin-right: 20px;
+
+
+
+}
+.leftHeaderLinks{
+    flex: 1;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+.rightheaders{
+flex: 1 0 0;
+margin-right: 50px;
+
+}
+
+.rightHeaderLinks{
+color: white;
+padding-right:10px;
+padding-left: 10px;
+text-decoration: none;
+font-size: 18px;
+}
+
+.flexContainierThisIsAwesome{
+    display: flex;
+ 
+    width: 100%;
+   
+    justify-content: space-evenly;
+}
+
+
+.topSection{
+    background-color: #1F2937 ;
+}
+
+.thisIsAwesome{
+    flex: 1 0 0;
+  
+    color: white;
+    max-width: 20%;
+  
+ 
+}
+.awesomeBox1{
+
+    font-size: 200%;
+    font-weight: 900;
+   
+}
+.awesomeBox2{
+  
+    font-weight: 1;
+    color: white;
+    mix-blend-mode: luminosity;
+}
+.pictureBox{
+    flex: 1 0 0;
+    max-width: 30%;
+
+}
+
+.pictureDroogle{
+    
+    width: 120%;
+    height: auto;
+}
