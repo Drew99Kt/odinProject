@@ -21,8 +21,8 @@
     font-weight: 900;
     font-size: 24px;
     text-decoration: none;
-    
-    
+    float: left;
+    margin-left: 110px;
     
 }
 
@@ -43,9 +43,9 @@ font-size: 18px;
 
 .flexContainierThisIsAwesome{
     display: flex;
- 
-    width: 100%;
-   
+    flex-direction: row;
+
+
     justify-content: space-evenly;
 }
 
@@ -56,9 +56,9 @@ font-size: 18px;
 
 .thisIsAwesome{
     flex: 1 0 0;
-  
+    
     color: white;
-    max-width: 20%;
+    max-width: 30%;
   
  
 }
@@ -75,13 +75,76 @@ font-size: 18px;
     mix-blend-mode: luminosity;
 }
 .pictureBox{
-    flex: 1 0 0;
-    max-width: 30%;
-
+    flex: 1;
+    max-width: 35%;
+    
 }
 
 .pictureDroogle{
-    
+    background-color: grey;
     width: 120%;
-    height: auto;
+    height: 180px;
+    text-align: center;
+    float: left;
+    margin-left: -60px;
+}
+.someRandomInfo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 80%;
+}
+.box{
+    border-style: inset;
+    border-color: blue;
+    border-radius: 10px;
+    
+    
+    width: 110px;
+    height: 110px;
+}
+
+.userTestBox{
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    width: auto;
+    display: flex;
+}
+
+.userTest{
+    font-size: 140%;
+    margin-top: 100px;
+    max-width: 65%;
+    
+}
+
+.bottomBoxContainer{
+
+    
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+     max-width: 30%;
+}
+.bottomBox{
+    display: flex;
+   height: 120px;
+
+    
+    margin: 120px;
+    background-color: #3882F6;
+    border-radius: 5px;
+   
+}
+
+.callBox{
+   
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 120%;
+    padding: 50px;
 }
