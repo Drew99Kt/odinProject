@@ -119,32 +119,51 @@ font-size: 18px;
     
 }
 
-.bottomBoxContainer{
-
+.bottomBoxCon{
     
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    align-content: center;
-     max-width: 30%;
+   
+    padding: 20px;
 }
+
 .bottomBox{
     display: flex;
-   height: 120px;
-
-    
-    margin: 120px;
+    height: 100px;
+    flex-direction: row;
+    margin: 80px;
+    max-width: 80%;
     background-color: #3882F6;
     border-radius: 5px;
    
+  
 }
 
 .callBox{
-   
-    margin-left: 40px;
-    text-align: center;
+    flex: 1;
     color: white;
-    font-weight: 900;
-    font-size: 120%;
-    padding: 50px;
+    max-width: 50%;
+
+    align-content: flex-start;
+}
+.signUpBox{
+
+
+   position: relative;
+  
+}
+
+.signUpStyle{
+   flex: 1;
+ 
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-color: white;
+
+   
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
