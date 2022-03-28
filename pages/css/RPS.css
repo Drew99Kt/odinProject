@@ -1,0 +1,55 @@
+body{
+    background-color: grey;
+}
+
+
+.scoreFrame{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    visibility:hidden;
+}
+.score{
+    
+    max-width: 500px !important;
+    flex: 1 100 100;
+    align-content: center;
+    margin: auto;
+    background-color: lightgray;
+    width: 200px;
+    
+}
+
+.mainframe{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    visibility:hidden;
+}
+
+.weapons{
+    flex: 1 100 100;
+    margin: auto;
+}
+
+.setMiddle{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 50%;
+ align-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    visibility:hidden;
+}
+.setMiddle2{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.startgamebox{
+    visibility: visible;
+}

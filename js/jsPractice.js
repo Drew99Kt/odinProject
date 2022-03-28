@@ -49,6 +49,38 @@ function updateBtn() {
     } else if (btn.textContent==='dont touch me') {
         btn.textContent= 'click me'
     }
-    console.log("i was callled")
+    console.log("i was callled");
 }
 
+
+function add7(num){
+    return num+7
+}
+
+console.log(add7(1));
+
+function times(num) {
+    return num*2;
+}
+console.log(times(1));
+
+function firstCap(string1) {
+  
+    return string1[0].toUpperCase()+string1.slice(1);
+}
+
+console.log(firstCap("helloworld"));
+
+
+
+function lastCap(input) {
+
+    let lastNum= input.length;
+  
+    let lastIndex=input[lastNum-1].toUpperCase();
+  
+    return input.substring(0,lastNum-1)+lastIndex;
+}
+console.log(lastCap("marry"));
+
+let answer = parseInt(prompt("To access this site you need to enter password"));
