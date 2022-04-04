@@ -36,15 +36,7 @@ for (let i1 = 0; i1 < 32; i1++) {
 
 
 
-  let mouseDown = 0;
-  document.body.onmousedown = function() { 
-    ++mouseDown;
-    console.log("mounse down")
-    
-  }
-  document.body.onmouseup = function() {
-    --mouseDown;
-  }
+
 
 let x2= function(){
     while (mouseDown==1){
@@ -57,8 +49,26 @@ let x2= function(){
     console.log(boxs)
  
 
+    let mouseDown = 0;
+    document.body.onmousedown = function() { 
+      ++mouseDown;
+      console.log("mounse down")
+      
+    }
+    document.body.onmouseup = function() {
+      --mouseDown;
+    }
+
+
 
  for (let i = 0; i < boxs.length; i++) {
+
+
+    if (mouseDown===2){
+        mouseDown=0;
+    }
+
+
     boxs[i].addEventListener('mouseover', function(e){
         console.log(e.target);    
         if (e.target.classList=='box' && mouseDown===1) {
