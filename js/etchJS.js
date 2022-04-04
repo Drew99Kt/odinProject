@@ -68,6 +68,9 @@ let x2= function(){
         mouseDown=0;
     }
 
+    if (mouseDown>2){
+        mouseDown=0;
+    }
 
     boxs[i].addEventListener('mouseover', function(e){
         console.log(e.target);    
