@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box{
+    flex: 1;
+    justify-self: center;
+    border-style: inset;
+    border-Color: grey;
+    border-Width:1px;
+    height:20px;
+
+}
+
+
+.box:hover{
+    background-color:black;
+   
+
+}
+
+.body{
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
