@@ -76,3 +76,10 @@ let x2= function(){
             }
     })
  }
+ 
+let reset= document.querySelector('.reset');
+ reset.addEventListener('click', function(e){
+  for (let i = 0; i < boxs.length; i++) {
+      boxs[i].style.backgroundColor='white';
+  }
+})
