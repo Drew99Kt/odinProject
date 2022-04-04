@@ -76,7 +76,7 @@ let x2= function(){
           
         if (e.target.classList=='box' && mouseDown===1) {
                 e.target.style.backgroundColor='black';
-              
+              //
             }
     })
  }
