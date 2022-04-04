@@ -12,11 +12,12 @@
 //    container2.appendChild(content2);
 
 
-for (let i1 = 0; i1 < 32; i1++) {
+for (let i1 = 0; i1 < 100; i1++) {
     for (let i = 0; i <60 ; i++) {
         const container = document.querySelector('.body');
         const content = document.createElement('button');
         content.classList.add('box');
+        content.style.backgroundColor='black';
         content.textContent = "";
         container.appendChild(content);
     
@@ -71,7 +72,7 @@ let x2= function(){
 
  
         if (e.target.classList=='box' && mouseDown===1) {
-                e.target.style.backgroundColor='black';
+                e.target.style.backgroundColor='white';
               //
             }
     })
@@ -80,6 +81,6 @@ let x2= function(){
 let reset= document.querySelector('.reset');
  reset.addEventListener('click', function(e){
   for (let i = 0; i < boxs.length; i++) {
-      boxs[i].style.backgroundColor='white';
+      boxs[i].style.backgroundColor='black';
   }
 })
