@@ -51,12 +51,12 @@ let x2= function(){
 
     let mouseDown = 0;
     document.body.onmousedown = function() { 
-      ++mouseDown;
+      mouseDown=1;
       console.log("mounse down")
       
     }
     document.body.onmouseup = function() {
-      --mouseDown;
+      mouseDown=0;
     }
 
 
@@ -64,16 +64,12 @@ let x2= function(){
  for (let i = 0; i < boxs.length; i++) {
 
 
-    if (mouseDown===2){
-        mouseDown=0;
-    }
-
-    if (mouseDown>2){
-        mouseDown=0;
-    }
-        console.log(mouseDown)
+  
     boxs[i].addEventListener('mouseover', function(e){
-          
+        console.log(mouseDown)
+
+
+ 
         if (e.target.classList=='box' && mouseDown===1) {
                 e.target.style.backgroundColor='black';
               //
