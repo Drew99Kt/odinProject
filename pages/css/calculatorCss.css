@@ -1,0 +1,46 @@
+.outerBox{
+justify-content: center;
+align-items: center;
+
+max-width: 100px !important;
+min-width:215px !important;
+margin: auto;
+padding-Top:200px;
+}
+.innerBox{
+   
+display:block;
+background-color:grey;
+padding-Top:30px;
+padding-bottom: 10px;
+
+}
+
+.btn{
+    background-color: lightblue;
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.line1{
+
+    
+}
+
+.line2{
+  
+    
+}
+
+.disply{
+    display: flex;
+    flex: 1;
+    justify-items: center;
+    text-align: right;
+    max-width:90%;
+    min-width: 90%;
+    padding-Top:15px;
+    margin: auto;
+    background-color:white;
+    justify-self: center;
+}

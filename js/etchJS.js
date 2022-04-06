@@ -84,3 +84,5 @@ let reset= document.querySelector('.reset');
       boxs[i].style.backgroundColor='black';
   }
 })
+
+
