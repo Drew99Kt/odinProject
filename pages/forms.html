@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="con"  action="example.com/path" method="post">
+        <!-- <label for="fName">First Name</label> -->
+        <input type="text" id="fName" placeholder="First name" name="f_name">
+        <input type="text" id="lName" placeholder="Last name" name="l_name">
+    </form>
+
+    <label for="user_email"></label>
+<input type="email" id="user_email" name="email" placeholder="you@example.com">
+<label for="user_password"></label>
+<input type="password" id="user_password" name="password" placeholder="password">
+
+<input type="number" id="amount" name="amount" placeholder="numbers only">
+
+<label for="dob"></label>
+<input type="date" id="dob" name="dob">
+<textarea placeholder="comments here"></textarea>
+<br>
+<textarea style="max-width: 100px; max-height: 200px; min-width: 100px; min-height:200px" placeholder="a second comment box" rows="10" cols="20"></textarea>
+<br>
+
+<form class="carDropDown"  action="ford.com/api/car" method="post">
+<select name="Car">
+    <option value="mercedes">Mercedes</option>
+    <option value="tesla">Tesla</option>
+    <option value="volvo" selected>Volvo</option>
+    <option value="bmw">BMW</option>
+    <option value="mini">Mini</option>
+    <option value="ford">Ford</option>
+  </select>
+</form>
+
+<form action="footlocker.com/api/store" method="post">
+    <select name="fashion">
+        <optgroup label="Clothing">
+          <option value="t_shirt">T-Shirts</option>
+          <option value="sweater">Sweaters</option>
+          <option value="coats">Coats</option>
+        </optgroup>
+        <optgroup label="Foot Wear">
+          <option value="sneakers">Sneakers</option>
+          <option value="boots">Boots</option>
+          <option value="sandals">Sandals</option>
+        </optgroup>
+      </select>
+</form>
+
+<form action="someairplanetickets.com/personsage" method="post">
+    <h1>Ticket Type</h1>
+<div>
+  <input type="radio" id="child" name="ticket_type" value="child">
+  <label for="child">Child</label>
+</div>
+
+<div>
+  <input type="radio" id="adult" name="ticket_type" value="adult" checked>
+  <label for="adult">Adult</label>
+</div>
+
+<div>
+  <input type="radio" id="senior" name="ticket_type" value="senior">
+  <label for="senior">Senior</label>
+</div>
+</form>
+
+<fieldset>
+    <h1>Pizza Toppings this is in a fieldset</h1>
+
+    <div>
+      <input type="checkbox" id="sausage" name="topping" value="sausage">
+      <label for="sausage">Sausage</label>
+    </div>
+    
+    <div>
+      <input type="checkbox" id="onions" name="topping" value="onions">
+      <label for="onions">Onions</label>
+    </div>
+    
+    <div>
+      <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+      <label for="pepperoni">Pepperoni</label>
+    </div>
+    
+    <div>
+      <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+      <label for="mushrooms">Mushrooms</label>
+    </div>
+</fieldset>
+
+<div>
+    
+
+
+  </div>
+  <form action="">  <h4>Would you like to sign up to receive our newsletter</h4>
+    <input type="checkbox" id="newsletter" name="news_letter">
+    <label for="newsletter">Send me the news letter</label></form>
+  <br>
+
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+  <button type="button">generic btn</button>
+  <br>
+  <fieldset>
+    <label for="first_name">First Name</label>
+    <input type="text" id="first_name" name="first_name">
+  
+    <label for="last_name">Last Name</label>
+    <input type="text" id="last_name" name="last_name">
+  </fieldset>
+
+<br>
+<br>
+<h4><h2>Legend</h2>
+<br>
+    The legend element is used to give field sets a heading 
+    <br> or caption so the user can see what a grouping of inputs is for.
+    
+    To create a legend, we use the legend element with
+    <br> the text we want to display within its 
+    <br> opening and closing tags. A legend should always 
+   <br> come right after an opening fieldset tag:</h4>
+<fieldset>
+    <legend>Contact Details</legend>
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  
+    <label for="phone_number">Phone Number:</label>
+    <input type="tel" id="phone_number" name="phone_number">
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  </fieldset>
+  
+
+  <h4>Below is a fieldset, the legend is the top text, it should 
+    <br>
+    it should come afte the opening fieldset tag
+  </h4>
+  <fieldset>
+    <legend>Delivery Details (this is a legend)</legend>
+  
+    <label for="street_address">Street Address:</label>
+    <input type="text" id="street_address" name="street_address">
+  
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city">
+  
+    <label for="zip_code">Zip Code:</label>
+    <input type="text" id="zip_code" name="zip_code">
+  </fieldset>
+
+  <br><br><br>
+<h4>A common use-case for these elements is using a fieldset <br>
+    to group radio buttons and using a legend to communicate
+    <br> to the user what each of the options is ultimately for:</h4>
+  <fieldset>
+    <legend>What would you like to drink?</legend>
+  
+    <div>
+      <input type="radio" name="drink" id="coffee" value="coffee">
+      <label for="coffee">Coffee</label>
+    </div>
+  
+    <div>
+      <input type="radio" name="drink" id="tea" value="tea">
+      <label for="tea">Tea</label>
+    </div>
+  
+    <div>
+      <input type="radio" name="drink" id="soda" value="soda">
+      <label for="soda">Soda</label>
+    </div>
+  
+  </fieldset>
+</body>
+</html>
