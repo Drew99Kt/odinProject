@@ -1,2 +1,1 @@
-#odinProject
-Odin Project
+This project contains multiple projects used for studying
